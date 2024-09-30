@@ -1,84 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-  margin: 0;
-}
-
-/* Container for flexboxes */
-section {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Style the navigation menu */
-nav {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background: #ccc;
-  padding: 20px;
-}
-
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-
-article {
-  -webkit-flex: 3;
-  -ms-flex: 3;
-  flex: 3;
-  background-color: #00ff0d;
-  padding: 10px;
-}
-
-
-
-</style>
-</head>
-<body>
-
-
-<header>
-  <h2>Website</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </article>
-</section>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">SEND</div>
+      <div class="nav-items">
+        <a href="/">Home</a> <a href="/">About</a> <a href="/">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="column-left">
+          <h1>Send Unlimited Messages</h1>
+          <p>
+            No contracts or unwanted fees. Exclusive offer for new customers
+            only.
+          </p>
+          <button>Get Started</button>
+        </div>
+        <div class="column-right">
+          <img
+            src="./image-1.svg"
+            alt="illustration
+        "
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
-

@@ -1,6 +1,9 @@
 body {
     background-color: powderblue;
   }
+  head {
+    background-color: grey;
+  }
   title {
     color:aqua;
   }

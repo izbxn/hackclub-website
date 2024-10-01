@@ -35,10 +35,11 @@ body{
 .box2{
   height: 200px;
   width: 400px;
-  background-color: linear-gradient(to bottom right,rgb(255, 89, 0), red);
+  
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
+  background-color: linear-gradient(to bottom right,rgb(255, 89, 0), red);
 }
 
 .box3{

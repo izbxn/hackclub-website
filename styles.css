@@ -2,8 +2,9 @@ body{
   min-height: 800px;
   border: 8px solid black;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
+  
 }
 
 .box{

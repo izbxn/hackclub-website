@@ -2,7 +2,7 @@ body{
   min-height: 800px;
   border: 8px solid black;
   display: flex;
-  justify-content: flex-center;
+  justify-content: flex-right;
 }
 
 .box{

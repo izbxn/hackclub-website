@@ -2,8 +2,8 @@ body{
   min-height: 800px;
   border: 8px solid black;
   display: flex;
-  flex-direction: column re;
-  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  justify-content: space-around;
   align-items: center;
 }
 

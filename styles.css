@@ -1,5 +1,4 @@
 body{
-  border-radius: 20px;
   min-height: 800px;
   border: 8px solid black;
   gap: 20px;
@@ -8,6 +7,10 @@ body{
   justify-content: space-evenly;
   align-items: center;
   
+}
+
+.round{
+  border-radius: 20px;
 }
 
 .box{

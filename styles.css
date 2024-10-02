@@ -4,9 +4,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  margin: 100px;
-  margin-bottom:500px;
-  flex-direction: row;
+  margin: 300px;
 }
 
 

@@ -2,13 +2,15 @@ body{
   min-height: 600px;
   margin-top: 100px;
   margin-right: 100px;
+  border: 8px solid black;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  border: 8px solid black;
+  
 }
+
 .box{
   border-radius: 25px;
   height: 200px;

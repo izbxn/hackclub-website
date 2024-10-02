@@ -2,9 +2,8 @@ body{
   border: 8px solid black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-evenly;
   margin: 100px;
 }
 

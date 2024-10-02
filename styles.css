@@ -1,6 +1,5 @@
 body{
-  min-height: 600px;
-  
+  min-height: 100px;
   border: 8px solid black;
   gap: 10px;
   flex-wrap: wrap;

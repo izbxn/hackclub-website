@@ -1,13 +1,13 @@
 head{
-  height: 50px;
+  height: 75px;
   width: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   background-color: #3f445a;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
 }
 
 body{
@@ -20,7 +20,6 @@ body{
   margin: 100px;
   margin-bottom: 200px;
 }
-
 
 
 .box{

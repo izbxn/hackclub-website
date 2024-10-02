@@ -1,11 +1,12 @@
 body{
   min-height: 600px;
-  margin: 100px;
+  
   border: 8px solid black;
   gap: 10px;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  margin: 100px;
 }
 
 

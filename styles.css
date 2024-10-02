@@ -14,7 +14,7 @@ body{
   border-radius: 25px;
   height: 200px;
   width: 200px;
-  background-image: linear-gradient(to bottom right,rgb(83, 126, 255),blue);
+  background-image: linear-gradient(to bottom right,#b3b8fb,rgb(83, 126, 255),blue);
   text-align: center;
   font-size: 40pt;
 }

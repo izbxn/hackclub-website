@@ -1,5 +1,4 @@
 body{
-  background-color: #636363;
   border: 8px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +22,7 @@ body{
 .box1{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,rgb(255, 196, 0),orange);
+  background-image: linear-gradient(to bottom right,rgb(255, 212, 131),rgb(255, 196, 0),orange);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
@@ -41,7 +40,7 @@ body{
 .box3{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,rgb(207, 134, 255),purple);
+  background-image: linear-gradient(to bottom right,rgb(255, 184, 255),rgb(207, 134, 255),purple);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
@@ -51,7 +50,7 @@ body{
 .box4{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,rgb(134, 253, 162), rgb(0, 255, 0));
+  background-image: linear-gradient(to bottom right,rgb(221, 255, 221),rgb(134, 253, 162), rgb(0, 255, 0));
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;

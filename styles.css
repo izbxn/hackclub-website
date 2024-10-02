@@ -8,10 +8,31 @@ head{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  border: 8px solid black; 
 }
 
-body{
-  background-color: #2a2d3e;
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-flex;
+  transform: translate(50px, -70px);
+  margin-left: 5px;
+  background-color: blue;
+}
+
+.dot.red {
+  background-color: #ed7172;
+}
+.dot.yellow {
+  background-color: #fdc264;
+}
+.dot.green {
+  background-color: #6cd962;
+}
+
+
+.flex-container{
   border: 8px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -20,13 +41,17 @@ body{
   margin: 100px;
   margin-bottom: 200px;
 }
+body{
+  background-color: #2a2d3e;
+  display: flex:
+}
 
 
 .box{
   border-radius: 25px;
   height: 200px;
   width: 200px;
-  background-image: linear-gradient(to bottom right,#b3b8fb,rgb(83, 126, 255),blue);
+  background-image: linear-gradient(to bottom right,#88d7fd,#756ffb);
   text-align: center;
   font-size: 40pt;
 }
@@ -35,7 +60,7 @@ body{
 .box1{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,rgb(255, 212, 131),rgb(255, 196, 0),orange);
+  background-image: linear-gradient(to bottom right,#ffed82,#fca85e);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
@@ -44,7 +69,7 @@ body{
 .box2{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,#ff6c6c,#ff5900, red);
+  background-image: linear-gradient(to bottom right,#fdad81,#ff2c53);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
@@ -53,7 +78,7 @@ body{
 .box3{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to right,rgb(255, 184, 255),rgb(207, 134, 255),purple);
+  background-image: linear-gradient(to bottom right,#fe84c4,#5d15b7);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
@@ -63,7 +88,7 @@ body{
 .box4{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,rgb(221, 255, 221),rgb(134, 253, 162), rgb(0, 255, 0));
+  background-image: linear-gradient(to bottom right,#81ffde,#22fd66);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
@@ -73,7 +98,7 @@ body{
 .box5{
   height: 200px;
   width: 200px;
-  background-image: linear-gradient(to bottom right, rgb(233, 254, 255), rgb(170, 246, 255));
+  background-image: linear-gradient(to bottom right, #fbfbde,#81ffed);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;

@@ -1,17 +1,16 @@
 head{
-  height: 200px;
+  height: 50px;
   width: 100%;
-  background-color: rgb(255, 255, 255);
-  border: 8px solid black;
+  background-color: #3f445a;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-
+  border-radius: 50px;
 }
 
 body{
-  background-color: rgb(13, 10, 40);
+  background-color: #2a2d3e;
   border: 8px solid black;
   display: flex;
   flex-wrap: wrap;
@@ -19,7 +18,9 @@ body{
   justify-content: space-around;
   margin: 100px;
   margin-bottom: 200px;
+  border-radius: 50px;
 }
+
 
 
 .box{

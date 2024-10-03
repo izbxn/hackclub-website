@@ -43,7 +43,6 @@ h1:hover::before{
   height:100%;
   -webkit-background-clip: text;
   animation: animate-size 2.5s linear infinite;
-  animation-direction: alternate;
   background-image: linear-gradient(to right,#fdad81,#ff2c53,red,#fdad81);
   background-size:200%;
   filter: blur(20px);

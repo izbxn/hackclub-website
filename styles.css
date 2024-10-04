@@ -164,10 +164,11 @@ body{
 .box6{
   height: 200px;
   width: 400px;
+  margin-top:-60px;
   background-image: linear-gradient(to bottom right, #5b5b5b,#d70000);
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
   transform: rotateX(180deg);
-  margin-top:-60px;
+  
 }

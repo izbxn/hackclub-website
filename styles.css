@@ -102,7 +102,7 @@ body{
 .box{
   border-radius: 25px;
   height: 200px;
-  width: 200px;
+  width: 400px;
   background-image: linear-gradient(to bottom right,#88d7fd,#756ffb);
   text-align: center;
   font-size: 40pt;

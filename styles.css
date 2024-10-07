@@ -121,11 +121,46 @@ h1:hover::before{
 .box1{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,#ffed82,#fca85e);
+  background:#666877;
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
   margin:50px;
+}
+
+@property --angle{
+  syntax: '<angle>';
+  inherits:false;
+  initial-value: 0deg;
+}
+
+.box1:hover{
+  position:relative;
+  width:400px;
+  height:200px;
+  background-image: repeating-conic-gradient(from var(--angle), transparent, #ff5e00, transparent, #0088ff,transparent, red, transparent);
+  animation: animate 4s linear infinite;
+}
+.box1:hover::before{
+  content: '';
+  position:absolute;
+  width:100%;
+  height:100%;
+  transform: translate(-210px,-8px);
+  background-image: repeating-conic-gradient(from var(--angle), transparent, #ff5e00, transparent, #0088ff,transparent, red, transparent);
+  animation: animate 4s linear infinite;
+  padding:10px;
+  z-index:-1;
+  border-radius:25px;
+}
+
+@keyframes animate{
+  0%{ 
+    --angle: 0deg;
+  }
+  100%{ 
+    --angle: 360deg;
+  }
 }
 
 .box2{

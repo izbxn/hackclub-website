@@ -166,7 +166,7 @@ h1:hover::before{
 .box2{
   height: 200px;
   width: 400px;
-  background-image: linear-gradient(to bottom right,#fdad81,#ff2c53);
+  background: #666877;
   text-align: center;
   font-size: 40pt;
   border-radius: 25px;
